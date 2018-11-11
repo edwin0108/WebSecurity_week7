@@ -31,7 +31,7 @@ Time spent: **6** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: <img src="https://github.com/edwin0108/WebSecurity_week7/blob/master/XSSLARGEFILE.gif" width="700">
-  - [ ] Steps to recreate: Create a 20MB file called "Dinosaurs secret life<img src=x onerror=alert(1)>.png", and upload to the media manager, refresh the page after upload and the script should be triggered.
+  - [ ] Steps to recreate: Create a 20MB file called "Dinosaurs secret life\<img src=x onerror=alert(1)\>\.png", and upload to the media manager, refresh the page after upload and the script should be triggered.
   - [ ] Affected source code: 
     - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
 
