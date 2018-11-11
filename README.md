@@ -24,14 +24,14 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [ ] Summary: An attacker can inject a malicious script in to the filename which a victim tries to upload leading to XSS inside the administrators control panel. Two different "file to large" cases end up in interpolating the file name and appending it into DOM unsanitized leading to XSS.
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [ ] Steps to recreate: Create a 20MB file called "Dinosaurs secret life<img src=x onerror=alert(1)>.png", and upload to the media manager, refresh the page after upload and the script should be triggered.
+  - [ ] Affected source code: 
+    - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
 
 
 ## Resources
