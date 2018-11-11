@@ -44,7 +44,7 @@ Time spent: **6** hours spent in total
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The biggest challenge is to find a proper way to recreate the problem, even though I read documentations and resources about the problem it takes some time to understand and recreate the problem back.
 
 ## License
 
