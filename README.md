@@ -11,15 +11,15 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="https://github.com/edwin0108/WebSecurity_week7/blob/master/XSS64kb.gif" width="700">
   - [ ] Steps to recreate: comment a post with >64kb plus the following command:
 			<a title='x onmouseover=alert(unescape(/hello%20world/.source)) 	style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
-1. Authenticated Stored Cross-Site Scripting (XSS)
+2. Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: Under default configuration, the attack requires a Contributor or Author level account. The attacker would insert specially formatted HTML containing JavaScript on a WordPress page or post. Some special configurations may allow posting or editing page content for unauthenticated users. 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="https://github.com/edwin0108/WebSecurity_week7/blob/master/xssmedia.gif" width="700">
   - [ ] Steps to recreate: insert a script command and package it as a mp3 file and upload it to wordpress, refresh the page after upload and the script should be triggered.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -33,16 +33,12 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-## Assets
-
-List any additional assets, such as scripts or files
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
@@ -50,7 +46,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Ka Shing Wai]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
